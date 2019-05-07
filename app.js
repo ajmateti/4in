@@ -16,7 +16,7 @@ function insert_color(i) {
                 done = true;
             }
             else if (check(j) == 'b') {
-                alert('Blue wins');
+                document.getElementById('result').innerHTML = "Blue Wins";
                 done = true;
             }
             break;
