@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+}
+
+.heading{
+    text-align: center;
+}
+
+.center{
+    background-color: #ddd;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-30%);
+}
+
+.row-center{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.box{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 6px 8px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#c{
+    transform: translateY(15px);
+}
+
+.imp
+{
+    z-index: 99;
+}
